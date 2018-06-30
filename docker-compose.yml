@@ -4,7 +4,7 @@ services:
   product-service:
     image: ganeshhp/php_project:latest
     ports:
-      - 5001:80
+      - 5002:80
 
   website:
     image: php:apache
